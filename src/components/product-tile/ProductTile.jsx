@@ -15,7 +15,7 @@ const ProductTile = ({ product }) => {
   }
 
   return (
-    <div className="group flex flex-col items-center border-2 border-red-900 gap-3 p-4 h-[360px] mt-10 ml-5 rounded-xl">
+    <div className="group flex flex-col items-center border-2 border-black-200 gap-3 p-4 h-[360px] mt-10 ml-5 rounded-xl">
       <div className="h-[180px]">
         <img
           src={product?.image}
@@ -35,12 +35,14 @@ const ProductTile = ({ product }) => {
               ? handelRemoveFromCart
               : handelAddToCart
           }
-          className="bg-red-950  text-white border-2 rounded-lg font-bold p-4"
+          className="bg-sky-500  text-white border-2 rounded-lg font-bold p-4"
         >
           {cart.some((item) => item.id === product.id)
             ? "Remove from cart"
             : "Add to cart"}
         </button>
+
+        
       </div>
     </div>
   );

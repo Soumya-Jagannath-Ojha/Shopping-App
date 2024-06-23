@@ -27,7 +27,7 @@ const Home = () => {
           <Circles
             height={"120"}
             width={"120"}
-            color="rgb(127,29,29)"
+            color="rgb(186, 185, 185)"  
             visible={true}
           />
         </div>
