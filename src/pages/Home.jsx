@@ -32,12 +32,15 @@ const Home = () => {
           />
         </div>
       ) : (
+        
         <div className="min-h-[80vh] grid sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 max-w-6xl mx-auto p-3">
+          
           {products && products.length
             ? products.map((productItem) => (
                 <ProductTile product={productItem} />
               ))
             : null}
+            
         </div>
       )}
     </div>

@@ -15,16 +15,18 @@ const ProductTile = ({ product }) => {
   }
 
   return (
-    <div className="group flex flex-col items-center border-2 border-black-200 gap-3 p-4 h-[360px] mt-10 ml-5 rounded-xl">
-      <div className="h-[180px]">
+    
+    <div className="group flex flex-col flex-1 items-center border-2 border-black-200 gap-3 p-4 h-[360px] mt-10 ml-5 rounded-xl hover:bg-gray-300">
+      
+      <div className="h-[140px]">
         <img
           src={product?.image}
           alt={product?.title}
           className="object-cover h-full w-full"
         />
       </div>
-      <div className="">
-        <p className="w-40 truncate mt-3 text-gray-700 font-bold text-lg">
+      <div className="grid">
+        <p className="w-auto truncate  mt-3 text-gray-700 font-semibold text-lg ">
           {product?.title}
         </p>
       </div>

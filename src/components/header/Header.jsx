@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between h-20 max-w-6xl mx-auto">
+    <nav className="flex items-center justify-between h-20  mx-auto sticky top-0 bg-[#0f1111] w-100vh">
       <Link to={"/"}>
         <div className="ml-5">
           <h3 className="text-orange-600 font-bold  text-xl sm:text-2xl md:text-3xl cursor-pointer tracking-wide">
@@ -35,7 +35,7 @@ const Header = () => {
         </svg>
       </div>
 
-      <ul className="flex list-none items-center space-x-6 text-gray-800 font-semibold">
+      <ul className="flex list-none items-center space-x-6 text-white font-semibold">
         <Link to={"/"}>
           <li className="cursor-pointer list-none">Home</li>
         </Link>
