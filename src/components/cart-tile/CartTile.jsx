@@ -15,11 +15,11 @@ const CartTile = ({ cartItem }) => {
           <img
             src={cartItem?.image}
             alt={cartItem?.title}
-            className="h-28 rounded-lg"
+            className="h-14 w-24 md:h-auto"  //h-28 rounded-lg w-24
           />
           <div className="ml-10 self-start space-y-5 ">
-            <p className="text-xl text-white font-bold">{cartItem?.title}</p>
-            <p className="text-white font-extrabold">{cartItem?.price}</p>
+            <p className="text-sm text-white font-bold">{cartItem?.title}</p>
+            <p className="text-green-500 font-extrabold ">${cartItem?.price}</p>
           </div>
         </div>
         <div>

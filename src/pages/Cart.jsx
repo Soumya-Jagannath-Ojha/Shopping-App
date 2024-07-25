@@ -12,7 +12,7 @@ const Cart = () => {
   console.log(cart, totalCart);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex align-middle justify-center">
       {cart && cart.length ? (
         <>
           <div className="min-h-[80vh] grid md:grid-cols-2 max-w-6xl mx-auto">
@@ -22,8 +22,8 @@ const Cart = () => {
               ))}
             </div>
           </div>
-          <div className="w-[300px">
-          <div className="flex flex-col justify-center items-end p-5 space-y-5 mt-14">
+          <div className="w-[600px]">
+          <div className="flex flex-col align-middle justify-center items-end p-5 space-y-5 mt-14">
             <h1 className="font-bold text-lg text-red-800 ">
               Your Cart Summary
             </h1>
@@ -32,7 +32,7 @@ const Cart = () => {
               <span>{cart.length}</span>
             </p>
             <p>
-              <span className="text-gray-800 font-bold ">Total Amount: </span>
+              <span className="text-gray-800 font-bold ">Total Amount: $</span>
               <span>{totalCart}</span>
             </p>
           </div>

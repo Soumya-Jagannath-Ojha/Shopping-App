@@ -23,10 +23,10 @@ const ProductTile = ({ product }) => {
           className="object-cover h-full w-full"
         />
       </div>
-      <div>
-        <h1 className="w-40 truncate mt-3 text-gray-700 font-bold text-lg">
+      <div className="">
+        <p className="w-40 truncate mt-3 text-gray-700 font-bold text-lg">
           {product?.title}
-        </h1>
+        </p>
       </div>
       <div className="flex items-center justify-center w-full mt-5">
         <button
@@ -41,8 +41,6 @@ const ProductTile = ({ product }) => {
             ? "Remove from cart"
             : "Add to cart"}
         </button>
-
-        
       </div>
     </div>
   );
