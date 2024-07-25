@@ -15,12 +15,12 @@ const Header = () => {
       <div class="relative">
         <input
           placeholder="Search..."
-          class="input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none"
+          class="input shadow-lg focus:border-2 border-blue-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none"
           name="search"
           type="search"
         />
         <svg
-          class="size-6 absolute top-3 right-3 text-gray-500"
+          class="size-6 absolute top-3 right-3 text-blue-500"
           stroke="currentColor"
           stroke-width="1.5"
           viewBox="0 0 24 24"
