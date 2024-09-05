@@ -28,12 +28,12 @@ const Cart = () => {
               Your Cart Summary
             </h1>
             <p>
-              <span className="text-gray-800 font-bold ">Total Item: </span>
-              <span>{cart.length}</span>
+              <span className="text-gray-800 text-xl font-bold ">Total Item: </span>
+              <span className="text-xl">{cart.length}</span>
             </p>
             <p>
-              <span className="text-gray-800 font-bold ">Total Amount: $</span>
-              <span>{totalCart}</span>
+              <span className="text-gray-800 text-xl font-bold ">Total Amount: $</span>
+              <span className="text-xl">{totalCart}</span>
             </p>
           </div>
           </div>
