@@ -9,7 +9,7 @@ const Cart = () => {
   useEffect(() => {
     setTotalCart(cart.reduce((acc, curr) => acc + curr.price, 0));
   }, [cart]);
-  console.log(cart, totalCart);
+  // console.log(cart, totalCart);
 
   return (
     <div className="flex align-middle justify-center">
@@ -23,8 +23,8 @@ const Cart = () => {
             </div>
           </div>
           <div className="w-[600px]">
-          <div className="flex flex-col align-middle justify-center items-end p-5 space-y-5 mt-14">
-            <h1 className="font-bold text-lg text-red-800 ">
+          <div className="flex flex-col align-middle justify-center  p-5 space-y-5 mt-14">
+            <h1 className="font-bold text-2xl text-red-800 ">
               Your Cart Summary
             </h1>
             <p>
