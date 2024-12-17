@@ -12,7 +12,7 @@ const Header = () => {
         </div>
       </Link>
 
-      <div class="relative">
+      {/* <div class="relative">
         <input
           placeholder="Search..."
           className="input shadow-lg focus:border-2 border-blue-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none"
@@ -33,7 +33,7 @@ const Header = () => {
             strokeLinecap="round"
           ></path>
         </svg>
-      </div>
+      </div> */}
 
       <ul className="flex list-none items-center space-x-6 text-white font-semibold">
         <Link to={"/"}>

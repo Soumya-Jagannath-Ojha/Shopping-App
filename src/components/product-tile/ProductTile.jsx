@@ -20,7 +20,7 @@ const ProductTile = ({ product }) => {
       
       <div className="h-[140px]">
         <img
-          src={product?.image}
+          src={product?.images}
           alt={product?.title}
           className="object-cover h-full w-full"
         />
@@ -44,6 +44,8 @@ const ProductTile = ({ product }) => {
             : "Add to cart"}
         </button>
       </div>
+
+      
     </div>
   );
 };
